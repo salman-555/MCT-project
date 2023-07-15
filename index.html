@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2699/PNG/512/disney_logo_icon_171253.png" type="">
+
+     <!--=============== REMIXICONS ===============-->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+     <!--=============== CSS ===============-->
+     <link rel="stylesheet" href="style.css">
+
+     <title>Disney India | The Official Home For All Things Disney</title>
+</head>
+<body>
+    <header class="header"  id="header">
+    <nav class="nav-bar container">
+        <div class="logo">
+             <a href=""><img src="data:image/png;base64,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" alt="Disney logo" class=""></a>
+        </div>
+        <div class="nav-item">
+            <ul class="nav-list">
+                <li class="nav-contents">
+                    <a href="#shop" target="_blank">SHOP</a>
+                </li>
+                <li class="nav-contents">
+                    <a href="#parks" target="_blank">PARKS</a>
+                </li>
+                <li class="nav-contents">
+                    <a href="#new" target="_blank">WHAT'S NEW</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+         <!-- ================ LOOK part =================== -->
+<head>
+    <div class="look">
+       <a href="" target="_blank"> <img src="https://lumiere-a.akamaihd.net/v1/images/djindia_2000x835_d73d9379.jpeg?region=0,0,2000,835" alt="poster" class="photo"></a>
+    </div>
+</head>         
+         <!-- ===================== CARD section ===================== -->
+    <div class="advertisement">
+        <div class="adv-cards">
+            <div class="cards">
+                <a href="" target="_blank" ><img src="https://lumiere-a.akamaihd.net/v1/images/disney-x-ginger-_-500-x-575_48785ba1.jpeg?region=0,0,500,575&width=480" alt="card 1" class="card-img"></a>
+                <!-- 1st adv card -->
+                <div class="card-content">
+               <span class="sub">Disney x Ginger</span> 
+                <b class="cell">SHOP NOW</b>
+            </div>
+        </div>
+
+             <div class="cards">
+                <a href="#" target="_blank"> <img src="https://lumiere-a.akamaihd.net/v1/images/800_x_600_avengers_ec604d30.jpeg?region=0,0,600,800&width=480" alt="card 1" class="card-img"></a>
+                <!-- 2'nd adv card -->
+                <div class="card-content">
+               <span class="sub">Disney x Mila Baby</span> 
+                <b class="cell">SHOP NOW</b>
+            </div>
+        </div>
+
+             <div class="cards">
+                <a href="#" target="_blank"><img src="https://lumiere-a.akamaihd.net/v1/images/final_blue_banner_4_copy_-_01_a50b5e9d.jpeg?region=0,0,1000,1150&width=480" alt="card 1" class="card-img"></a>
+                <!-- 3'rd adv card -->
+                <div class="card-content">
+                <span class="sub">Disney x Hair Drama Co.</span>
+           
+                <b class="cell">SHOP NOW</b>
+            </div>
+        </div>
+
+             <div class="cards">
+                <a href="#" target="_blank"> <img src="https://lumiere-a.akamaihd.net/v1/images/disney_banner_mobile_da6fee66.jpeg?region=0,0,2083,2396&width=480" alt="card 1" class="card-img"></a>
+                <!-- 4'th adv card -->
+                <div class="card-content">
+                <span class="sub">Disney x Toothless Kids</span>
+                <b class="cell">SHOP NOW</b>
+            </div>
+        </div>
+     </div>
+    </div>     
+             <!-- =================FEATURE section =================== -->
+
+    <section class="feature">
+        <div class="heading"><h1>Featured Ads</h1></div>
+        <div class="ads">
+            <div class="img-add">
+             <a href="" target="_blank"><img src="https://lumiere-a.akamaihd.net/v1/images/900x540_dit_2bbf385b.jpeg?region=0,0,960,540&width=600" alt="add"></a>
+
+             <p class="about">Disney Imagine That | Disney Channel</p>
+             
+            </div>
+            <div class="vid-add">
+            <div class="video"> <iframe width="640" height="360" src="https://www.youtube.com/embed/NTunTURbyUU" title="Marvel’s Spider-Man: Miles Morales Launch Trailer I PS5, PS4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <a href="https://amzn.to/35buWpS" target="_blank" class="discription"><p class="bigh">Marvel’s Spider-Man</p><br><p class="paragraph">When new foes threaten the city, a new web-slinger arises as Spider-Man. <br> Marvel’s Spider-Man: Miles Morales has arrived on PlayStation 4 and PlayStation <br> 5. Get the game now: http://amzn.to/35buWpS <br> #BeGreater #BeYourself #MilesMorales</p></a>
+
+            </div>
+        </div>
+
+            <!-- =================== HOLIDAY section ====================== -->
+        <div class="holiday">
+            <div class="explore"><h1>Explore Disney Holidays</h1></div>
+            <div class="holiday-pics">
+                <div class="enjoy">
+                    <a href="https://www.disneylandparis.com/en-usd/" ><img src="https://lumiere-a.akamaihd.net/v1/images/eu_dis-prs_season-of-the-force_poh_r_3aad400f.jpeg?region=0,0,600,690&width=480" alt="" class="legend"></a>
+                    <h3 class="top">Legends of the Force</h3>
+                    <p class="bottom"><b>DISCOVER NOW AT DISNEYLAND® PARIS</b></p>
+                </div>
+                <div class="enjoy">
+                    <a href="https://www.disneylandparis.com/en-usd/"><img src="https://lumiere-a.akamaihd.net/v1/images/eu_parks_q2-update_po_v8_r_8570fddb.jpeg?region=0,0,600,690&width=480" alt="" class="legend"></a>
+                    <h3 class="top">14 Day Ticket at a 7 Day Price</h3>
+                    <p class="bottom">BOOK WITH WALT DISNEY WORLD</p>
+                </div>
+                <div class="enjoy">
+                    <a href="https://www.disneylandparis.com/en-usd/" ><img src="https://lumiere-a.akamaihd.net/v1/images/eu_dcr_always_on_sq_po_v3_r_1b065c85.jpeg?region=0,0,500,575&width=480" alt="" class="legend"></a>
+                    <h3 class="top">Find Your Perfect Holiday</h3>
+                    <p class="bottom">DISCOVER NOW AT DISNEYLAND® PARIS</p>
+                </div>
+            </div>
+        </div>
+        <!-- =================== MORE section ================= -->
+        <!-- <div class="more">
+            <div class="more-head"><h1>More From Disney</h1></div>
+        </div> -->
+        <div class="holiday">
+         <div class="more-head"><h1>More From Disney</h1></div>
+         <div class="holiday-pics">
+             <div class="enjoy">
+                 <a href="https://birthdaybook.disney.in/" class="legen"><img src="https://lumiere-a.akamaihd.net/v1/images/retina_-_1095_x_617_cfd1e705.png?region=0,0,1095,617&width=600" alt=""></a>
+                 <div class="slots">
+                 <h3 class="high">Disney Junior Birthday Book</h3>
+                 <p class="low">Make your kids birthday even more special by creating your own personalized birthday video for your child. </p>
+                 <p class="disney">DISNEY JUNIOR</p>
+                </div>
+             </div>
+             <div class="enjoy">
+                 <a href="https://www.disney.in/mickey-mouse-true-original" class="legend"><img src="https://lumiere-a.akamaihd.net/v1/images/eu_mickey90_promo2_c169_r_b0eb57bc.jpeg?region=0,0,1095,617&width=600" alt=""></a>
+                 <div class="slots">
+                 <h3 class="high">  Happy Anniversary Mickey   </h3>
+                 <p class="low">It all started with a mouse. We're celebrating 90 years of the True Original.</p>
+                 <p class="disney-2">DISNEY</p>
+                </div>
+             </div>
+           
+         </div>
+        </div>
+    </section>
+
+    <!-- ===============FOOTER part =================== -->
+    <footer class="base">
+        <header class="header"  id="header">
+            <nav class="nav-bar container">
+                <div class="logo">
+                     <a href=""><img src="data:image/png;base64,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" alt="Disney logo" class=""></a>
+                </div>
+                <div class="nav-item">
+                    <ul class="nav-list">
+                        <li class="nav-contents">
+                            <a href="#shop" target="_blank">SHOP</a>
+                        </li>
+                        <li class="nav-contents">
+                            <a href="#parks" target="_blank">PARKS</a>
+                        </li>
+                        <li class="nav-contents">
+                            <a href="#new" target="_blank">WHAT'S NEW</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="social-icons">
+                <a href="#" class="footer_social">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+                <a href="#" class="footer_social">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                
+                
+                <a href="#" class="footer_social">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                
+                <a href="#" class="footer_social">
+                    <i class="ri-youtube-fill"></i>
+                </a>
+            </div>
+           
+        </header>
+        <div class="tag">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAAAkFBMVEX///8jHyAAAAAgHB0ZFBURCgwcFxgUDhAIAAAXEhMcGBn8/PwGAAD29vYaFRfz8/OSkZGamZkMAAWAf3/j4+MmIiOLioqhoKDp6elGQ0TR0dG4t7dnZWbm5uasq6s3NDXa2tpjYWF7eXqop6fHxsYsKClOTExaWFnNzMxycHFDQEE0MTKzsrONjIy+vr5mZGXFqoDfAAAMeUlEQVR4nO2c54KiOhSA5YRQxAp2LFhAse37v91No4qOd9Rx3D3frx1FyElOT9haDUEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEGQv4pmb+evu53TYHDqrv1dz3n3gH6IYDjVgGFRSk2TUpf/EU67m9G7R/ZinGEIrk60MkSnAHo87717gK/jbFmXcmcTYFugr87Nd4/yJXSASU4Mm2k603dbN8jFTBATIJr/feq/AY1JVt/G3qnTOXmr6XZvMFtv0JIR1C0mfvvdo30ui7rpbcoyjSZ+Z9oHcFsl8ae7/3Pv0bnrrQbDyROH+0zaYCyvfdecDJdMfiMnvg7h8c47O+s9AAsaJosZ3SeN9rn0QDdh4V2P5cEwYs4+Z/tgDu+5cResevab8dMG/Ez86ULrhzf9WNOfAmTaTyzrS+l3xCp4C3d1/thUyfG34JJMevO25p+gHCvs36r4d9FmGVCq+wQWN7zeFNglZt5SOLD6ucE+n90SzNTpw/RaxFtafJ29XqwrLeEJMjN++K0O/z5GHtBMjdeV13hs1WHarA1Bach8xoxma2j09MOjfTbNTiY97GeXF2y46F2eL/JLzNZZfjy3NNP72aG+AKeTar4Blx7fJhpdcXcnZmeafMxkt6r15LNoe5AkPBCVrH4OGmmlome+PbY1qNCSD6QXJVFMh03hm7GhuUOl8JBFwjZo+vanR/k4F9m+4GzTJNx1ch873Nrb87LofErgA/sA0K8u3lfJ0kNuQdn6arQrRc98QTMytQrX8Os5gx1Vf7Ozlc8zD5lqcLGpTGPTz3yqa4341QN9AdxJnau/cpag/L2V6vPUVh+l5Yu/YAqSOfxPQieacdVLrZXekzRnC9R0QMD/mvmxTOk+Mp8dcVngahE2gXpJeE8aAiGLRQjQsEX++5mRfQPpIlbSDu2S8Kp6JSRp/MHhAz08Z+jy0V8xeI6zVwutYlgbiuUb/UQHL1lxyaz5rUvGSngqvH1TeHpbrDnRATqf296OuD3T232HvVT71iL5BXS8BS9c3an/E2N8FSZfQNq5eY0TSodHRQyfgPTq7dE3WtrBb1ITWYl+UX2OVKgDscznmxZymxis4Pu/fi7Sc9lfJWUbUP7u0d2L2Ca/ptwT4V0zrmS1GZ6sbOw/Dz6Plfn1/oP3eBY92XgKR71Z+6YlqmD+VU+uOQsmk97oaq7En0fvTf2b0xeGz/akQ5UyC0gUd/ygcuBK6429+jvmLbsCwdwbW6AwtoNjUHUfjVRM4GyzHkyjA6GtaJD9qt2n1xPOhwjWcR+y3pycAsOmbODjweby+rH09aB61/u6mzeU3YqCZRpZi79lNgAqtsN4SlxPJrA2CjZrb8yjpanXeaZYp2mO6Rx07WH/ckn7OGWPs69ty7MBwLQsvlp4XclDWe2W7vb4IVTeTC3bjGYrvYNcHrkUUtcLvyENJe+WzRIkPwvi/vjencJbbLbQ0CtGWsCGsJS39JXFp9ldogLN6GKbRqw8BRU6Q4NkFQOXva4K4H3VMGxZVfIGCVU3cGI2twY83Ac+9ssbKlcgsC9s4ynX0BDTz32WjPa1NrEzeW2Tug1h8f1lRy32EfgGRuIdRANATUUv2wvJIfSJ18oE5I96dXnZrbLjDiZhbo0Iaak/WpZludRsFdfPKNR3qnK3RZeCq66qAiIuDOHmbS22sddd+5tJL2+nC67UaXPIF/XAQP7RjBPpubETo8X9jUgyD/V0cjfJkMnhEdEH4jbEpsIh6/vlWNy2NT0ej+uut2XezzJzk1PwNSq/Mfm/jw1Nc0XVPhEGHHrH4IpfkmFUA5UNimyKt7klM1FMaWCS/mERLePORvgIvuljS9dyVIVjVYC4H2fcEH7sEHeOGznUgXhyVss4wXGlgZu4HzMfihNPz3/YZQZARfTlRfDNMQ1VLEnmcV/X8h2DXVUDgbsT0mjmRNeB1L+qO24R0TqMh5N8zIztouyC2TpKVDEfYOW1cpw8VMmRcDdAwtN16SO1z5H074XfyPZwolZFXsnTSKnxvhTd2jZrIfk6/7zGBOyo3GGZ6hWyM3qqQ51vug+Ux5mo35nCaEXzgzBt2p7m50kwKmeHTtrrUK7qzD9IKwhhEeVdTG4XUk4VWYFfzua+8V3Zj7C4+GxrVMvOFj8kic9V5GXni2mu0sELp0FVVhduB+fM9ieymc8nyBVKNIO82xLmTku5K1cNMevKv1pipnhH+bu5zg4uE2lpw5Wy8/Vs5ZVMdSmFzvNgr9buCGAWDqwRg2tBYgSyKbbhXT4qu7lyMsQ/21KlyaEjUSkFc7cinKja2ZTWstQf2PsBuChXFuSK7D1xGLPgg6SOSFXgQ24pA3bOg+WhoRJ5V4WJVjLR3EuQRa3rJiojUnp5lzM01HRRiVxXsc0dpD2TutIRpog3mqpf0LlMsGWyduk/J2LGodCloCqxqykjLnueZnsWnIerBUhH2ZAPO7Bf8Q2ABj/eGfJPxqmjj9OsKHEJQjamYISb59bMJls6gQf2/C7TQlot+wgatk6hkEErwxYSyyCdcx/tnX/0N/JcurPxQKyy0ODEs4mFt7hTE/ojVMArp3VSdqYYXBMHytiVUh6tWxsJXzKBssnL21+u+2gdb0/Fk2ldGaeFfUh/RZKvjnt+Pp2r/MKTh814Ni7KNTFj9irx91w4EVtEMaBcGYWUmppY9vVZ5VKGeghToIcSuzW447zNO9dkr0BVamJpgpy/Yk4fbLuuNq9MNr38ijPIbEYEKRENRVwn/UT2STKFbDY3m81uNwlUz4NHBhiNks0v5f94pvfYiZ4TtNzc6bH2/bJ35X6MrL0nedk9gCje2ulBS1tk5Mpfza3k/k0paKxk7yXTkRWqCjFtvYW8W10ZlkydH9sA8oDkToqM7pY9CeMyQdlJ2YUKOSDd92we8Whnu7Bsq1Q3UOK5In4rSdeihhCWKxpherkHyGsFLZlIdexjx33vwyc7mAeBcdIq7d0re1PptOpZyXRLRqQepG2Ytu8t4yFzE8EfsUyzwr6PI6O1cK/CcpX2lCvTc27XS1X68jzb4x3eNRADBtLqE2cz+OI37bCVd8RqeHIsbbCLFwfdvWwRcGVe8h82pM0OG6lMYkdAuHmSqXxT2nuQk124xF5UPtn0bSYNnbnWAffik/tk31mqHkkeL9MxZX4RDecsj3ecZm8395jiU6mvQplFJZOcV+qn6Z/4pK/2hJzg3F1Ffe7nhS/KZK+zgLqbylNf9ClnmZp8Hk2Iju3dPbI305M3bnK6wk8DVo07DSPtz1pmdhxfuIFtK/lXLXETmgpc0tEaU761R23R55RKsEwbS8Y0tlSbydxfDOx7dPmRgrqVyHRL9nZ21NBNZ164ozTDTA4oFEkLkJx/XrlqWua11NEa+VpAXOlnC28klQLdP61d3Ts0ck+87uvO09wR0ywjVr4uqVd6YfE4vfhSZrzCuWd1xEIsoi08WBOu/ajii6tvf3yHTm6xSNWbIk6wXgJkfUjIJRajouz8bm5++ZhFnbJZkmm8oBm6hFihnIuw1N4lIPUvKMtedbb1IXrjrG1JwF35QZupldMc9SabeWd6YDVZrqFLzcKBelmL5Zo1zW4fLGa0hBgswoOXhiP2kPw2r+OBdlLq23ELElJdPaKU5hPYP/9Qy7GRPUQ0WlMsWtxrsKH0yk0XWkQvJWTBfBUdDosoLrw5NQfzWjrWzPf1bUicjlNY9jr0X3LAwVmVi8hKTIgvsor1loyDux7ix1dfwdglZ5YJhTjb5Ukas3WdLUj0WFP+OuWDQxXoeQV+NixrgQZTuEU3VzOqHkk93C694wtfV1QBhlS8KqzJjbk/r5p3yeh89HcFAdV6kPpLn1tLjoiSMA7Fi6JqN5QYOn/lD6LO7udf/ZrLePllnv2kBwlHPNsdu96faBGScB9NB8Pzm04Mqn7+6988kgoGFfvt7yJRefP1j1qBy7T7F73U6MuE8ydePHKOw6EfvP45d5PsfP0iVfwxkv7QL1LFnyIoHm35pxjKHP/26ea/lK1sjn3iS1cPoyKc/u5xvAHVOP7ygO/fSHLM4hln6T6NE/13zV22aAl99zjegWzh6R/5puGjSHN3P/N9uwdRx6qCd4/jHYiDhxe70v8G4mRK6wP/F4EnIDoXX7yu99fi8xfKP/s/yvk+G+tXtZF+GP9jXy5GEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEOQ+/gMsqqydNLqlQwAAAABJRU5ErkJggg==" alt="Disney logo" class="disney-tag">
+        </div>
+        <div class="footer-nav">
+            <ul id="footer-data">
+                <li><a href="https://www.thewaltdisneycompany.com/">About</a></li>
+                <li><a href="https://jobs.disneycareers.com/">Careers</a></li>
+                <li><a href="https://disney.co.uk/about-us">Internet Safety</a></li>
+                <li><a href="https://disneytermsofuse.com/">Terms of Use</a></li>
+                <li><a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/">Privacy Policy</a></li>
+                <li><a href="https://disneytermsofuse.com/english/dmca-notices/">DMCA Notices</a></li>
+                <li><a href="https://www.disney.in/supplemental-gtou">Supplemental Terms of Use</a></li>
+                <li><a href="https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/addendum-to-the-global-privacy-policy/">Addendum to Privacy Policy - for India</a></li>
+                <li><a href="https://www.disney.in/contest-terms-and-conditions">Contest Terms and Conditions</a></li>
+                <li><a href="https://www.startv.com/documentation/">Channel Distribution</a></li>
+                <li><a href="https://preferences-mgr.truste.com/?type=disneycolor&amp;affiliateId=115">Interest-Based Ads</a></li>
+            </ul>
+
+        </div>
+        <div class="footerBottom">
+            <p>© Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
